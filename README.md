@@ -31,14 +31,15 @@ This allows you to enter any host or IP address manually when running the scanne
 
 ## Included Files
 
-- `port_scanner.py` — The Python source code file containing the scanner.
-- `port_scanner.exe` — A standalone executable file generated using PyInstaller for easy use on Windows without needing Python installed.
+- `portscanner.py` — The Python source code file containing the scanner.
+- `portscanner.exe` — A standalone executable file generated using PyInstaller for easy use on Windows without needing Python installed.
 
 
 ## How to Create Executable Yourself (Optional)
 
 If you want to generate the executable yourself, use PyInstaller:
-```pip install pyinstaller
+```
+    pip install pyinstaller
     pyinstaller --onefile portscanner.py
 ```
 
